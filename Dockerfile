@@ -87,4 +87,4 @@ VOLUME ["/etc/ocserv", "/etc/radcli"]
 ENTRYPOINT ["/entrypoint.sh"]
 
 EXPOSE 443
-CMD ["ocserv", "-c", "/etc/ocserv/ocserv.conf", "-f", "-d", "9999"]
+CMD ["ocserv", "-c", "/etc/ocserv/ocserv.conf", "-f"]
